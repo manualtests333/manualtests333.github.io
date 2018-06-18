@@ -10,6 +10,7 @@
 <p id="demo2"></p>
 <p id="foo"></p>
 <p id="foo2"></p>
+<p id="foo3"></p>
 
 <a href="bbb.html">bbb.html</a>
 
@@ -34,6 +35,10 @@ document.getElementById("foo").innerHTML = foo.name;
 var foo2 = new Object();
 foo2.name = 'foo2';
 document.getElementById("foo2").innerHTML = foo2.name;
+    
+var foo3 = new Object();
+foo3.name = 'foo3';
+document.getElementById("foo3").innerHTML = foo3.name;
 
 var a = java.lang.reflect.Array.newInstance(String.class, x, y);
 javaObject.methodName("something", "something");
