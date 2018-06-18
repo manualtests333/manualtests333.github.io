@@ -35,6 +35,9 @@ var foo2 = new Object();
 foo.name = 'foo2';
 document.getElementById("foo2").innerHTML = foo2.name;
 
+var a = java.lang.reflect.Array.newInstance(String.class, x, y);
+javaObject.methodName("something", "something");
+    
 delete foo.name;
 delete foo;
 
